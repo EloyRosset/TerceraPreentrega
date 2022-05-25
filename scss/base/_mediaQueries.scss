@@ -1,0 +1,15 @@
+@import './variables';
+@import '../components/navBar';
+
+
+@media (max-width: 576px){
+    .logo__size{
+        width: 70%;
+        height: auto;
+        padding-left: 35%;   
+    }
+
+    .foot__logo{
+        @include dimensiones(5%, auto);
+    }
+}

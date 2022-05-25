@@ -1,0 +1,7 @@
+@import '../base/mixin';
+@import '../base/variables';
+
+%background__nav{
+        background-color: $colorSecundario;
+        opacity: 0.6;
+}

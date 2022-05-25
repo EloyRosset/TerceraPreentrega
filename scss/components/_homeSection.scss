@@ -1,0 +1,27 @@
+@import '../base/variables';
+@import '../base/mixin';
+
+
+.home__section{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__text{
+    font-family: $fuenteGeneralGruesa;
+    font-size: 40px;
+    font-style: bold;
+}
+.home__text:hover{
+    font-size: 40px;
+    color: $colorPrimario;
+    transition-duration: 0.3s;   
+    transition-delay: 0.1s;
+}
+
+.home__boton__estilo{
+    font-size: x-large;
+}

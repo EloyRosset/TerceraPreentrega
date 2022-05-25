@@ -1,0 +1,11 @@
+@import '../base/mixin';
+@import '../base/variables';
+@import '../base/extends';
+
+.contenedor__footer{
+    @extend %background__nav
+}
+
+.foot__logo{
+    @include dimensiones(10%, auto)
+}

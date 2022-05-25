@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.home__background {
+  background-image: url(../img/fotoportada.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.home__section {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.home__text {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-style: bold; }
+
+.home__text:hover {
+  font-size: 40px;
+  color: #e8e8e8;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s; }
+
+.home__boton__estilo {
+  font-size: x-large; }
+
+.contenedor__nav, .contenedor__footer {
+  background-color: grey;
+  opacity: 0.6; }
+
+.logo__size {
+  width: 15%;
+  height: auto; }
+
+.nav__li__estilo {
+  font-family: "poppinsextralight", sans-serif;
+  font-size: 17px;
+  color: darkgray; }
+
+.contenedor__nav, .contenedor__footer {
+  background-color: grey;
+  opacity: 0.6; }
+
+.logo__size {
+  width: 15%;
+  height: auto; }
+
+.nav__li__estilo {
+  font-family: "poppinsextralight", sans-serif;
+  font-size: 17px;
+  color: darkgray; }
+
+@media (max-width: 576px) {
+  .logo__size {
+    width: 70%;
+    height: auto;
+    padding-left: 35%; }
+  .foot__logo {
+    width: 5%;
+    height: auto; } }
+
+.contenedor__nav, .contenedor__footer {
+  background-color: grey;
+  opacity: 0.6; }
+
+.foot__logo {
+  width: 10%;
+  height: auto; }
