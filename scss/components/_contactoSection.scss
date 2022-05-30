@@ -1,0 +1,14 @@
+@import '../base/variables';
+@import '../base/mixin';
+
+
+.contacto__background{
+    background-image: url(../img/fotocontacto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed ;
+    }
+.form__padding{
+    padding-left: 15%;
+}
+

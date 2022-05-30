@@ -1,0 +1,42 @@
+@import '../base/variables';
+@import '../base/mixin';
+
+
+.servicios__background{
+    background-image: url(../img/fotoservicios.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed ;
+    }
+
+.servicios__title{
+    font-family: $fuenteGeneralGruesa;
+    font-size: 250%;
+    font-style: bold;
+    background-color: $colorPrimario;
+    opacity: 0.5;
+    margin-top: 100px;
+}
+
+.servicios__container{
+    background-color: $colorPrimario;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    opacity: 0.9;
+}
+.servicios__textcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.servicios__text{
+    font-family: $fuenteGeneralGruesa;
+    font-size: 250%;
+    font-style: bold;
+}
+
+
+.img__servicios{
+    @include dimensiones (30%, auto);
+}

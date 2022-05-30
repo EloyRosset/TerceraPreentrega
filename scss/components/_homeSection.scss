@@ -12,16 +12,19 @@
 
 .home__text{
     font-family: $fuenteGeneralGruesa;
-    font-size: 40px;
+    font-size: 250%;
     font-style: bold;
+    background-color: $colorPrimario;
+    opacity: 0.5;
 }
 .home__text:hover{
-    font-size: 40px;
-    color: $colorPrimario;
+    color: $colorSecundario;
     transition-duration: 0.3s;   
     transition-delay: 0.1s;
 }
 
 .home__boton__estilo{
+    color: $colorPrimario;
     font-size: x-large;
+    background-color: rgb(32, 31, 31);
 }

@@ -1,5 +1,10 @@
 @import './variables';
 @import '../components/navBar';
+@import '../components/homeSection';
+@import '../components/sobremiSection';
+@import '../components/serviciosSection';
+@import '../components/portfolioSection';
+@import '../components/contactoSection';
 
 
 @media (max-width: 576px){
@@ -11,5 +16,43 @@
 
     .foot__logo{
         @include dimensiones(5%, auto);
+    }
+    .home__text{
+        font-size: 200%;
+        text-align: center;
+    }
+    .sobremi__text{
+        font-size: medium;
+        
+    }
+    .sobremi__container{
+        flex-direction: column;
+    }
+    .sobremi__retrato{
+        @include dimensiones(300px, auto);
+        float: top;
+    }
+
+    .h3{
+        text-align: center;
+    }
+    .d-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img__servicios{
+        width: 100%;
+
+    }
+    .portfolio__container{
+        @include dimensiones (100%, auto);
+    }
+    .img__carrousel{
+        @include dimensiones (100%, auto);
+    }
+
+    .form__padding{
+        padding-left: 0%;
     }
 }

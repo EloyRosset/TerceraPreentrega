@@ -1,0 +1,18 @@
+@import '../base/variables';
+@import '../base/mixin';
+
+.portfolio__background{
+    background-image: url(../img/fotoportfolio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed ;
+    }
+
+.portfolio__container{
+    @include dimensiones (60%, auto);
+}
+
+.img__carrousel{
+    @include dimensiones (20%, auto);
+}
+
